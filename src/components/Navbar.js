@@ -5,8 +5,22 @@ import About from './About';
 import Ranking from './Ranking';
 import logo from '../logo.png';
 
-
 const navbar = () => {
+    return (
+        <nav className="nav-style">
+        
+        <p><img src= {logo} className="nav-logo" alt="logo" /></p>
+        <p><i>List of cities</i></p>
+        <p><i><Link to='./Ranking.js'>Ranking</Link></i></p>
+        <p><i>Comments/Tips</i></p>
+        <p><i><Link to='./About.js'>About</Link></i></p>
+      
+      </nav>
+      
+    )
+  }
+
+/*const navbar = () => {
     return (
         <nav className="nav-style">
         <ul>
@@ -19,6 +33,6 @@ const navbar = () => {
       </nav>
       
     )
-  }
+  }*/
    
   export default navbar;
