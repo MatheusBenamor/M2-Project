@@ -2,9 +2,8 @@ import React from 'react';
 
 const carousel = () => {
     return (
-        <h1>Carrossel vai aqui</h1>
+    <h1>Esse é o componente Carrossel</h1>
     )
-
 }
 
 export default carousel;
