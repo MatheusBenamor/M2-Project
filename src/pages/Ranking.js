@@ -3,7 +3,7 @@ import React from 'react';
 const ranking = () => {
     return (
      <div>
-     <p>Ranking</p>
+     <p>Essa é a página do Ranking</p>
      </div>
     )
 }

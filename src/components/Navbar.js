@@ -1,19 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import About from './About';
-import Ranking from './Ranking';
 import logo from '../logo.png';
 
-const navbar = () => {
+export const navbar = () => {
     return (
         <nav className="nav-style">
         
-        <p><img src= {logo} className="nav-logo" alt="logo" /></p>
-        <p><i>List of cities</i></p>
-        <p><i><Link to='./Ranking.js'>Ranking</Link></i></p>
-        <p><i>Comments/Tips</i></p>
-        <p><i><Link to='./About.js'>About</Link></i></p>
+        <p><NavLink to='/'><img src= {logo} className="nav-logo" alt="logo" /></NavLink></p>
+        <p><i><NavLink to='cities'>List of cities</NavLink></i></p>
+        <p><i><NavLink to='ranking'>Ranking</NavLink></i></p>
+        <p><i><NavLink to='comments'>Comments and Tips</NavLink></i></p>
+        <p><i><NavLink to='about'>About</NavLink></i></p>
       
       </nav>
       

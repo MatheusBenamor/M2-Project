@@ -35,9 +35,9 @@
             "name":"França",
  
             "city": {
-                "city-name": "Madrid",
-                "moeda": "euro",
-                "idioma": "espanhol",
+                "city-name": "Paris",
+                "coin": "euro",
+                "language": "espanhol",
                 "população": "3.000.0000",
                 "descolamento": "avião",
                 "atraçõesTurísticas": {
