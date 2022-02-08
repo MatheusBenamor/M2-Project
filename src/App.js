@@ -6,6 +6,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import AllCities from './pages/AllCities';
 import Comments from './pages/Comments';
+import axios from 'axios';
 
 
 function App() {
