@@ -1,0 +1,54 @@
+{
+    "countries":[
+        {
+           "id":1,
+           "name":"Espanha",
+
+           "city": [{
+               "city-name": "Madrid",
+               "moeda": "euro",
+               "idioma": "espanhol",
+               "população": "3.000.0000",
+               "descolamento": "avião",
+               "atraçõesTurísticas": {
+                   "Parque": "El Retiro",
+                   "Esporte": "Estádio",
+                   "Mercado": "Mercado X"
+               }
+            },
+               {
+                "city-name": "Barcelona",
+                "moeda": "euro",
+                "idioma": "espanhol",
+                "população": "500.0000",
+                "descolamento": "avião",
+                "atraçõesTurísticas": {
+                    "Parque": "Parque Gueel",
+                    "Esporte": "Estádio B",
+                    "Mercado": "Mercado Y"
+                }
+           }]
+
+        },
+        {
+            "id":2,
+            "name":"França",
+ 
+            "city": {
+                "city-name": "Madrid",
+                "moeda": "euro",
+                "idioma": "espanhol",
+                "população": "3.000.0000",
+                "descolamento": "avião",
+                "atraçõesTurísticas": {
+                    "Parque": "El Retiro",
+                    "Esporte": "Estádio",
+                    "Mercado": "Mercado X"
+                }
+ 
+            }
+ 
+         }
+
+    ]
+}
