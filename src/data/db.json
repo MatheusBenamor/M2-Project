@@ -2,48 +2,63 @@
     "countries":[
         {
            "id":1,
-           "name":"Espanha",
+           "name":"Spain",
 
            "city": [{
                "city-name": "Madrid",
-               "moeda": "euro",
-               "idioma": "espanhol",
-               "população": "3.000.0000",
-               "descolamento": "avião",
-               "atraçõesTurísticas": {
-                   "Parque": "El Retiro",
-                   "Esporte": "Estádio",
-                   "Mercado": "Mercado X"
+               "image": "https://www.eurodicas.com.br/wp-content/uploads/2021/06/melhores-bairros-de-madrid.jpg",
+               "score": 9,
+               "coin": "euro",
+               "language": "spanish",
+               "population": "6.89 million",
+               "deslocamento": "avião",
+               "tourist attractions": {
+                   "Park": "El Retiro",
+                   "image2": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Le_parc_du_Retiro_%28Madrid%29_%284684143195%29.jpg/1200px-Le_parc_du_Retiro_%28Madrid%29_%284684143195%29.jpg",
+                   "Sport": "Santiago Bernabéu Stadium",
+                   "image3": "https://media.istockphoto.com/photos/aerial-view-of-santiago-bernabeu-stadium-in-madrid-picture-id1069599884?k=20&m=1069599884&s=170667a&w=0&h=YZA7lf-8559UWislKQVuXkbXLL495VTET_8n__IExxo=",
+                   "Monument": "Royal Palace",
+                   "image4": "https://viagensdestinos.com/wp-content/uploads/2018/05/royal-3462249_1280.jpg"
                }
             },
                {
                 "city-name": "Barcelona",
-                "moeda": "euro",
-                "idioma": "espanhol",
-                "população": "500.0000",
+                "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/thinkstockphotos-158308055.jpeg",
+                "score": 9.2,
+                "coin": "euro",
+                "language": "espanhol",
+                "population": "5.65 million",
                 "descolamento": "avião",
-                "atraçõesTurísticas": {
-                    "Parque": "Parque Gueel",
-                    "Esporte": "Estádio B",
-                    "Mercado": "Mercado Y"
+                "tourist attractions": {
+                    "Park": "Parque Güell",
+                    "image2": "https://img.static-kl.com/images/media/45D02D4F-DA4A-4730-BA391DFD868861F5?aspect_ratio=1:1&min_width=912",
+                    "Sport": "Camp Nou Stadium",
+                    "image3": "https://www.lance.com.br/galerias/wp-content/uploads/2020/10/Captura-de-Tela-2020-10-14-a%CC%80s-16.15.07_Easy-Resize.com_-658x474.jpg",
+                    "Monument": "Basílica de La Sagrada Familia",
+                    "image4": "https://h5q4a2e9.stackpathcdn.com/wp-content/uploads/2014/01/templo-expiatorio-barcelona.jpg"
                 }
            }]
 
         },
         {
             "id":2,
-            "name":"França",
+            "name":"France",
  
             "city": {
                 "city-name": "Paris",
+                "image": "https://media.iatiseguros.com/wp-content/uploads/sites/6/2018/12/01065501/torre-eiffel-paris.jpg",
+                "score": 9,
                 "coin": "euro",
-                "language": "espanhol",
-                "população": "3.000.0000",
+                "language": "spanish",
+                "population": "9.9 million",
                 "descolamento": "avião",
                 "atraçõesTurísticas": {
-                    "Parque": "El Retiro",
-                    "Esporte": "Estádio",
-                    "Mercado": "Mercado X"
+                    "Monument": "Eiffel Tower",
+                    "image2": "https://cdn.pariscityvision.com/library/image/5144.jpg",
+                    "Museum": "Louvre Mouseum",
+                    "image3": "https://cityzore.s3.eu-central-1.amazonaws.com/product-images/guided.louvre.02.jpg",
+                    "Monument2": "Cathédrale Notre-Dame de Paris",
+                    "image4": "https://www.planetware.com/photos-large/F/france-paris-notre-dame.jpg"
                 }
  
             }
