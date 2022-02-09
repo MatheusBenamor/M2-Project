@@ -83,7 +83,7 @@
             },
             {
               "name": "Cathédrale Notre-Dame de Paris",
-              "type": "Monument",
+              "type": ["Monument", "Church"],
               "image": "https://www.planetware.com/photos-large/F/france-paris-notre-dame.jpg"
             }
           ]
