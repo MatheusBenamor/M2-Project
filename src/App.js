@@ -12,7 +12,6 @@ import axios from 'axios';
 function App() {
   return (
     <div className="App">
-      <h1>Projeto Módulo 2 (Eduardo e Matheus)</h1>
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home />} />
