@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Carousel from '../components/Carousel';
 
-const cities = () => {
+const AllCities = ({ destinations, getDestinations }) => {
+
+    useEffect(() => {
+        getDestinations()
+    }, [])
+
     return (
-     <div>
-     <p>Essa página terá a lista com as cidades separadas por países</p>
-     </div>
+        <div>
+            <p>Essa página terá a lista com as cidades separadas por países</p>
+            <Carousel destinations={destinations} />
+        </div>
     )
 }
-export default cities;
+export default AllCities;
