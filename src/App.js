@@ -21,13 +21,13 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
-      <Route path="/ranking" element={<Ranking />}/>
-      <Route path="/comments" element={<Comments />}/>
-      <Route path="/about" element={<About />}/>
+        <Route path="/" element={<Home destinations={destinations} getDestinations={getDestinations} />} />
+        <Route path="/cities" element={<AllCities />} />
+        <Route path="/ranking" element={<Ranking />} />
+        <Route path="/comments" element={<Comments />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );
