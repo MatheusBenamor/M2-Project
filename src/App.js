@@ -25,7 +25,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
-      <Route path="/ranking" element={<Ranking />}/>
+      <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/comments" element={<Comments />}/>
       <Route path="/about" element={<About />}/>
       </Routes>
