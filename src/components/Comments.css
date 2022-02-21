@@ -1,0 +1,13 @@
+.comment-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+}
+
+.globe-img {
+height: 500px;
+width: 600px;
+}
