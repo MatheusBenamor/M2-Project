@@ -21,10 +21,14 @@
   }
 
   .nav-logo {
-    width: 370px;
+    width: 400px;
     height: 100px;
 position: sticky;
 
   }
 
+  .iron-logo {
+    width: 100px;
+    height:100px;
+  }
  

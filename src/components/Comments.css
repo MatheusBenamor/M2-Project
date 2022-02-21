@@ -1,6 +1,7 @@
 .comment-box {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 input {

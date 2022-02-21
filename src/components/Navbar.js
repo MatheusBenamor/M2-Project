@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import logoProject from '../logoProject.png';
+import logoIronhack from '../logoIronhack.png';
 
 export const navbar = () => {
     return (
@@ -13,6 +14,7 @@ export const navbar = () => {
         <li><p><i><NavLink to='ranking'>Ranking</NavLink></i></p></li>
         <li><p><i><NavLink to='comments'>Comments and Tips</NavLink></i></p></li>
         <li><p><i><NavLink to='about'>About</NavLink></i></p></li>
+        <li><img src= {logoIronhack} className="iron-logo" alt="logo-iron" /></li>
         </ul>
       </nav>
       </>
