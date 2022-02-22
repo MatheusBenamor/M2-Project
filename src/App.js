@@ -10,6 +10,7 @@ import { CommentsForm, CommentsList } from './pages/Comments';
 import axios from 'axios';
 
 
+
 function App() {
 
   const [destinations, setDestinations] = useState([]);
@@ -31,9 +32,9 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home destinations={destinations} getDestinations={getDestinations} />} />
       <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/comments" element={<CommentsForm />}/>

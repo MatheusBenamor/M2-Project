@@ -1,17 +1,21 @@
-import React from "react";
-import Carousel from "../components/Carousel";
+import React, { useEffect } from "react";
+import  Carousel  from "../components/Carousel";
 
 
-export const Home = () => {
-    return (
-        <section className="home">
-        <div className="title-space">
-          <h1> Essa é minha página principal</h1>
-          <Carousel />
-        </div>
+export const Home = ({ destinations, getDestinations }) => {
 
-        </section>
-);
+  useEffect(() => {
+    getDestinations()
+  }, [])
+
+  return (
+    <section className="home">
+      <div className="title-space">
+        <Carousel destinations={destinations} />
+      </div>
+
+    </section>
+  );
 }
 
 export default Home;
