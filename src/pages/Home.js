@@ -11,7 +11,6 @@ export const Home = ({ destinations, getDestinations }) => {
   return (
     <section className="home">
       <div className="title-space">
-        <h1> Essa é minha página principal</h1>
         <Carousel destinations={destinations} />
       </div>
 
