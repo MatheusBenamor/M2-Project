@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel as CarouselBS } from 'react-bootstrap'
-import AllCities from '../pages/AllCities';
+// import AllCities from '../pages/AllCities';
 
 const Carousel = ({ destinations }) => {
 
@@ -12,16 +12,16 @@ const Carousel = ({ destinations }) => {
 
     const MathDestinations = () => {
         const cities = destinations.map((destination) => destination.city);
-        
+
         const newArray = [];
-        for (let i = 0; i < cities.length; i++){
-            for (let j = 0; j < cities[i].length; j++){
-            newArray.push(cities[i][j])
-        }
+        for (let i = 0; i < cities.length; i++) {
+            for (let j = 0; j < cities[i].length; j++) {
+                newArray.push(cities[i][j])
+            }
         }
         setCities(newArray)
     }
-    
+
     useEffect(() => {
         MathDestinations()
         console.log(cities)
