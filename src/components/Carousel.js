@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel as CarouselBS } from 'react-bootstrap'
 import AllCities from '../pages/AllCities';
+import "../components/Carousel.css";
+
 
 const Carousel = ({ destinations }) => {
 
@@ -28,23 +30,30 @@ const Carousel = ({ destinations }) => {
     }, [destinations])
 
     return (
-
+    <section className='page-container'>
         <CarouselBS activeIndex={index} onSelect={handleSelect}>
             {destinations.map(destination => (
-
+              
                 <CarouselBS.Item key={destination._id}>
+                  <div className='img-size'>
                     <img
                         className="d-block w-100"
                         src={destination.city[0].image}
                         alt={destination.city[0].cityName}
                     />
+                    </div>
                     <CarouselBS.Caption>
+                        <div className="text-color">
                         <h3>{destination.city[0].cityName}</h3>
+                        </div>
+                        
                     </CarouselBS.Caption>
                 </CarouselBS.Item>
+                
             ))}
 
         </CarouselBS>
+        </section>
     );
 }
 

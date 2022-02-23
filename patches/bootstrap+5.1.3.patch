@@ -1,0 +1,13 @@
+diff --git a/node_modules/bootstrap/scss/_reboot.scss b/node_modules/bootstrap/scss/_reboot.scss
+index 79fedc6..373e3dc 100644
+--- a/node_modules/bootstrap/scss/_reboot.scss
++++ b/node_modules/bootstrap/scss/_reboot.scss
+@@ -16,7 +16,7 @@
+ *,
+ *::before,
+ *::after {
+-  box-sizing: border-box;
++  box-sizing: content-box;
+ }
+ 
+ 
