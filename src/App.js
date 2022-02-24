@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Ranking from './pages/Ranking';
 import About from './pages/About';
 import Home from './pages/Home';
+import DestinationDetails from './components/DestinationDetails';
 import AllCities from './pages/AllCities';
 import { CommentsPage } from './pages/Comments';
 import axios from 'axios';
@@ -38,7 +39,7 @@ function App() {
       <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/comments" element={<CommentsPage commentsList={commentsList} getComments={getComments}/>}/>
-      
+      <Route path="/destination/:id" element={<DestinationDetails />}/>
       <Route path="/about" element={<About />}/>
       </Routes>
     </div>
