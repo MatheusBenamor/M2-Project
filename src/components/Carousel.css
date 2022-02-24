@@ -21,9 +21,3 @@ object-fit: contain;
     width: 800px;
    height: 430px;
 }
-
-.page-container {
-    width: 810px;
-    height: 510px;
-    background-color: brown;
-}

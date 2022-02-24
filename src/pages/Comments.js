@@ -79,13 +79,7 @@ export const CommentsPage = ({commentsList, getComments}) => {
       <h1>A Lista de Comentários vai Aqui</h1>
       <>
       <div>
-      {commentsList.length > 0 ? (
-    <p>
-    {commentsList[1].name};
-    </p>
-    ) : (
-            "loading comment"
-          )}
+      {commentsList[1].name};
     </div>
     </>
     </section>
