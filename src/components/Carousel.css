@@ -1,0 +1,23 @@
+.carousel-style{
+display: flex;
+justify-content: center;
+width: 800px;
+height: 500px;
+margin-left: 400px;
+object-fit: contain;
+}
+
+.text-color{
+    color: black;
+    float: right;
+    width: 50%;
+    border-radius: 10%;
+    background-color: white;
+    opacity: 0.8
+}
+
+.img-size {
+    object-fit: cover;
+    width: 800px;
+   height: 430px;
+}

@@ -7,7 +7,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import DestinationDetails from './components/DestinationDetails';
 import AllCities from './pages/AllCities';
-import { CommentsForm, CommentsList } from './pages/Comments';
+import { CommentsPage } from './pages/Comments';
 import axios from 'axios';
 
 
@@ -38,8 +38,7 @@ function App() {
       <Route path="/" element={<Home destinations={destinations} getDestinations={getDestinations} />} />
       <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
-      <Route path="/comments" element={<CommentsForm />}/>
-      <Route path="/comments" element={<CommentsList commentsList={commentsList} getComments={getComments}/>}/>
+      <Route path="/comments" element={<CommentsPage commentsList={commentsList} getComments={getComments}/>}/>
       <Route path="/destination/:id" element={<DestinationDetails />}/>
       <Route path="/about" element={<About />}/>
       </Routes>
