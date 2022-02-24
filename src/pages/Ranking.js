@@ -16,17 +16,17 @@ export const Ranking = ({ destinations, getDestinations }) => {
           {destinations.length > 0 ? (
             <>
               <h2 className="flag">
-                1 - {destinations[17].city[0].cityName}
+                1 - {destinations[37].city[0].cityName}
                 <img
                   className="flag"
-                  src={`${destinations[17].flag}`}
+                  src={`${destinations[37].flag}`}
                   alt="country flag"
                 />
               </h2>
               <br></br>
-              <img src={`${destinations[17].city[0].image}`} alt="cityPhoto" />
+              <img src={`${destinations[37].city[0].image}`} alt="cityPhoto" />
               <br></br>
-              <h2>Score: {destinations[17].city[0].score}</h2>
+              <h2 className="rank-border">Score: {destinations[37].city[0].score}</h2>
             </>
           ) : (
             "loading"
@@ -38,7 +38,150 @@ export const Ranking = ({ destinations, getDestinations }) => {
         {destinations.length > 0 ? (
             <>
           <h2 className="flag">
-            2 - {destinations[13].city[0].cityName}
+            2 - {destinations[17].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[17].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[17].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[17].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            3 - {destinations[16].city[0].cityName}
+            <img src={`${destinations[16].flag}`} alt="country flag" />
+          </h2>
+          <br></br>
+          <img src={`${destinations[16].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[16].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            4 - {destinations[36].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[36].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[36].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[36].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            5 - {destinations[35].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[35].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[35].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[35].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            6 - {destinations[22].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[22].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[22].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[22].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            7 - {destinations[34].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[34].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[34].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[34].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            8 - {destinations[32].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[32].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[32].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[32].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            9 - {destinations[13].city[0].cityName}
             <img
               className="flag"
               src={`${destinations[13].flag}`}
@@ -48,7 +191,7 @@ export const Ranking = ({ destinations, getDestinations }) => {
           <br></br>
           <img src={`${destinations[13].city[0].image}`} alt="cityPhoto" />
           <br></br>
-          <h2>Score: {destinations[13].city[0].score}</h2>
+          <h2 className="rank-border">Score: {destinations[13].city[0].score}</h2>
           </>
           ) : (
             "loading"
@@ -59,13 +202,101 @@ export const Ranking = ({ destinations, getDestinations }) => {
         {destinations.length > 0 ? (
             <>
           <h2 className="flag">
-            3 - {destinations[18].city[0].cityName}
-            <img src={`${destinations[18].flag}`} alt="country flag" />
+            10 - {destinations[2].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[2].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[2].city[0].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[2].city[0].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            11 - {destinations[32].city[1].cityName}
+            <img
+              className="flag"
+              src={`${destinations[32].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[32].city[1].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[32].city[1].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            12 - {destinations[29].city[1].cityName}
+            <img
+              className="flag"
+              src={`${destinations[29].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[29].city[1].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[29].city[1].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            13 - {destinations[37].city[2].cityName}
+            <img
+              className="flag"
+              src={`${destinations[37].flag}`}
+              alt="country flag"
+            />
+          </h2>
+          <br></br>
+          <img src={`${destinations[37].city[2].image}`} alt="cityPhoto" />
+          <br></br>
+          <h2 className="rank-border">Score: {destinations[37].city[2].score}</h2>
+          </>
+          ) : (
+            "loading"
+          )}
+        </div>
+
+        <div>
+        {destinations.length > 0 ? (
+            <>
+          <h2 className="flag">
+            14 - {destinations[18].city[0].cityName}
+            <img
+              className="flag"
+              src={`${destinations[18].flag}`}
+              alt="country flag"
+            />
           </h2>
           <br></br>
           <img src={`${destinations[18].city[0].image}`} alt="cityPhoto" />
           <br></br>
-          <h2>Score: {destinations[18].city[0].score}</h2>
+          <h2 className="rank-border">Score: {destinations[18].city[0].score}</h2>
           </>
           ) : (
             "loading"
@@ -76,64 +307,23 @@ export const Ranking = ({ destinations, getDestinations }) => {
         {destinations.length > 0 ? (
             <>
           <h2 className="flag">
-            4 - {destinations[9].city[0].cityName}
+            15 - {destinations[6].city[0].cityName}
             <img
               className="flag"
-              src={`${destinations[9].flag}`}
+              src={`${destinations[6].flag}`}
               alt="country flag"
             />
           </h2>
           <br></br>
-          <img src={`${destinations[9].city[0].image}`} alt="cityPhoto" />
+          <img src={`${destinations[6].city[0].image}`} alt="cityPhoto" />
           <br></br>
-          <h2>Score: {destinations[9].city[0].score}</h2>
+          <h2 className="rank-border">Score: {destinations[6].city[0].score}</h2>
           </>
           ) : (
             "loading"
           )}
         </div>
 
-        <div>
-        {destinations.length > 0 ? (
-            <>
-          <h2 className="flag">
-            5 - {destinations[5].city[0].cityName}
-            <img
-              className="flag"
-              src={`${destinations[5].flag}`}
-              alt="country flag"
-            />
-          </h2>
-          <br></br>
-          <img src={`${destinations[5].city[0].image}`} alt="cityPhoto" />
-          <br></br>
-          <h2>Score: {destinations[5].city[0].score}</h2>
-          </>
-          ) : (
-            "loading"
-          )}
-        </div>
-
-        <div>
-        {destinations.length > 0 ? (
-            <>
-          <h2 className="flag">
-            6 - {destinations[15].city[0].cityName}
-            <img
-              className="flag"
-              src={`${destinations[15].flag}`}
-              alt="country flag"
-            />
-          </h2>
-          <br></br>
-          <img src={`${destinations[15].city[0].image}`} alt="cityPhoto" />
-          <br></br>
-          <h2>Score: {destinations[15].city[0].score}</h2>
-          </>
-          ) : (
-            "loading"
-          )}
-        </div>
       </section>
     </>
   );
