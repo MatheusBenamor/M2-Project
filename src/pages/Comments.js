@@ -76,7 +76,7 @@ export const CommentsPage = ({commentsList, getComments}) => {
       <img src={TravelGlobe} className="globe-img" alt="globe-img" />
     </section>
     <section>
-      <h1>A Lista de Comentários vai Aqui</h1>
+      <h2>A Lista de Comentários vai Aqui</h2>
       <>
       <div>
       {commentsList.length > 0 ? (
