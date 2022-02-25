@@ -10,7 +10,7 @@ export const navbar = () => {
         <nav className="nav-style">
         <ul>
         <li><NavLink to='/'><img src= {logoProject} className="nav-logo" alt="logo" /></NavLink></li>
-        <li><p><i><NavLink to='cities'>List of cities</NavLink></i></p></li>
+        <li><p><i><NavLink to='cities'>List of countries</NavLink></i></p></li>
         <li><p><i><NavLink to='ranking'>Ranking</NavLink></i></p></li>
         <li><p><i><NavLink to='comments'>Comments and Tips</NavLink></i></p></li>
         <li><p><i><NavLink to='about'>About</NavLink></i></p></li>

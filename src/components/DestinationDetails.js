@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Carousel as CarouselBS } from 'react-bootstrap'
+import "../components/DestinationDetails.css"
 
 const DestinationDetails = ({ destinations }) => {
     const [destination, setDestinations] = useState({})
@@ -24,13 +25,14 @@ const DestinationDetails = ({ destinations }) => {
     }, [id])
 
     return (
-        <div>
+        <div className='card-container'>
             {destination._id ? <div>
-                <p>{destination.name}</p>
+                <h3>{destination.name}</h3>
                 <p>detalhes do pais {destination.name}</p>
-                <img src={destination.city[0].image} alt={destination.city[0].cityName} />
+                <img className="country-img" src={destination.city[0].image} alt={destination.city[0].cityName} />
                 <h3>Language: {destination.city[0].language}</h3>
                 <h3>Coin: {destination.city[0].coin}</h3>
+                
 
                 <CarouselBS activeIndex={index} onSelect={handleSelect}>
                     {destination.city.map(destination => (
@@ -38,11 +40,11 @@ const DestinationDetails = ({ destinations }) => {
                         <CarouselBS.Item key={destination.cityName}>
                             <img
                                 className="d-block w-60"
-                                src={destination.image}
+                                src={destination.touristAttractions[0].image}
                                 alt={destination.cityName}
                             />
                             <CarouselBS.Caption>
-                                <h3>{destination.touristAttractions[0].name}</h3>
+                                <h3 className='city-img'>{destination.touristAttractions[0].name}</h3>
                             </CarouselBS.Caption>
                         </CarouselBS.Item>
                     ))}
