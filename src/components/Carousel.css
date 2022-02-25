@@ -1,5 +1,6 @@
 .carousel-style{
 display: flex;
+border-radius: 15%;
 justify-content: center;
 width: 800px;
 height: 500px;
