@@ -1,9 +1,11 @@
 .ranking-list {
     display: flex;
     flex-wrap: wrap;
+    font-size: 25px;
     text-align: center;
     line-height: 3px;
     justify-content: space-around;
+    font-family: 'Quicksand Book', sans-serif;
 }
 
 .ranking-list img {
@@ -23,5 +25,6 @@
 }
 
 .rank-border {
+    margin-top: 30px;
     margin-bottom: 60px;
 }

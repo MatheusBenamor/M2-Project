@@ -28,6 +28,8 @@ export const CommentsPage = ({commentsList, getComments}) => {
     await axios.post("https://ironrest.herokuapp.com/newComments", newComment);
   };
 
+  
+
   return (
       <>
     <section className="comment-box">
@@ -71,18 +73,43 @@ export const CommentsPage = ({commentsList, getComments}) => {
         />
         <p></p>
         <button type="submit">Send</button>
+        
       </form>
 
       <img src={TravelGlobe} className="globe-img" alt="globe-img" />
     </section>
     <section>
-      <h2>A Lista de Comentários vai Aqui</h2>
+      <p className="comments-title">Community comments</p>
       <>
       <div>
       {commentsList.length > 0 ? (
-    <p>
-    {commentsList[1].name};
-    </p>
+        <>
+        <div className="comments-container">
+    <div className="comments">
+    <p>Name: {commentsList[0].name};</p>
+    <p>Country: {commentsList[0].country};</p>
+    <p>City: {commentsList[0].city};</p>
+    <p>Score: {commentsList[0].score};</p>
+    <p>Comment: {commentsList[0].comment};</p>
+    </div>
+    <br></br>
+    <div className="comments">
+    <p>Name: {commentsList[1].name};</p>
+    <p>Country: {commentsList[1].country};</p>
+    <p>City: {commentsList[1].city};</p>
+    <p>Score: {commentsList[1].score};</p>
+    <p>Comment: {commentsList[1].comment};</p>
+    </div>
+    <br></br>
+    <div className="comments">
+    <p>Name: {commentsList[2].name};</p>
+    <p>Country: {commentsList[2].country};</p>
+    <p>City: {commentsList[2].city};</p>
+    <p>Score: {commentsList[2].score};</p>
+    <p>Comment: {commentsList[2].comment};</p>
+    </div>
+    </div>
+    </>
     ) : (
             "loading comment"
           )}
@@ -91,4 +118,11 @@ export const CommentsPage = ({commentsList, getComments}) => {
     </section>
     </>
   );
+
 };
+
+
+//{commentsList[1].name};
+
+
+
