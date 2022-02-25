@@ -1,11 +1,17 @@
 # Travel and Share (Module 2 Project)
 Deploy link: https://travel-and-share-project.herokuapp.com/
 
-This project is based on a React Application. Travel and Share allow the user to have acess to tips and other types of travel contents, that includes Ranking of best destinations, a description of each city and also the best tourist attractions!
+This project is based on a React Application. Travel and Share allow the user to have acess to tips and other types of travel contents, that includes Ranking of best destinations, a description of each country and also the best tourist attractions!
 
 > Ironhack 
 >Web Development
 > [SAO 11.2021]
+
+## Acess
+> Fork this repo
+> Clone this repo
+> npm install
+> npm start
 
 ## Tech
 
