@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import "../components/Ranking.css";
 
-export const Ranking = ({ destinations, getDestinations, _id }) => {
+export const Ranking = ({ destinations, getDestinations, }) => {
   const [highScores, setHighScores] = useState([]);
 
 

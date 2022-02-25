@@ -13,3 +13,27 @@ input {
 height: 500px;
 width: 600px;
 }
+
+.comments {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    padding: 40px;
+    border-style: groove;
+    color: 	#696969;
+}
+
+.comments-title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.comments-container {
+    display: flex;
+    justify-content: center;
+}
