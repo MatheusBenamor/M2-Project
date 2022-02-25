@@ -8,10 +8,10 @@ This project is based on a React Application. Travel and Share allow the user to
 > [SAO 11.2021]
 
 ## Access the project
-> Fork this repo
-> Clone this repo
-> npm install
-> npm start
+- [Fork this repo]
+- [Clone this repo]
+- [npm install]
+- [npm start]
 
 ## Tech
 
