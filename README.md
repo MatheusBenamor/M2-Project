@@ -7,7 +7,7 @@ This project is based on a React Application. Travel and Share allow the user to
 >Web Development
 > [SAO 11.2021]
 
-## Acess
+## Access the project
 > Fork this repo
 > Clone this repo
 > npm install
