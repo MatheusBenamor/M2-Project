@@ -19,6 +19,10 @@ object-fit: contain;
 
 .img-size {
     object-fit: cover;
-    width: 800px;
+    width: 1500px;
    height: 430px;
+}
+
+.page-container {
+    
 }
