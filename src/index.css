@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Quicksand Book', sans-serif;
   background-color: #EFE6C9;
+  font-weight: lighter;
   
 }
 
@@ -11,4 +12,5 @@ code {
 
 html {
   font-family: 'Quicksand Book', sans-serif;
+  font-weight: lighter;
 }
