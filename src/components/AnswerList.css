@@ -1,0 +1,9 @@
+.answer-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.answer-title {
+    font-size: 20px;
+    margin-left: 50px;
+}

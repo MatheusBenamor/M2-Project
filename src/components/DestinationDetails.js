@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Carousel as CarouselBS } from "react-bootstrap";
 import "../components/DestinationDetails.css";
-import sticky from "../TravelPost.png";
+
 
 const DestinationDetails = ({ destinations }) => {
   const [destination, setDestinations] = useState({});

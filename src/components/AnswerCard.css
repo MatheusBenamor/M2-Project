@@ -1,0 +1,11 @@
+.comments {
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 50px;
+    padding: 40px;
+    border-style: groove;
+    color: 	#696969;
+}
