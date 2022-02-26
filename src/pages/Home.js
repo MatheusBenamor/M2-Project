@@ -5,6 +5,7 @@ import "../components/Home.css";
 import { Link } from 'react-router-dom';
 
 
+
 export const Home = ({ destinations, getDestinations, _id }) => {
 
   useEffect(() => {
@@ -16,13 +17,13 @@ export const Home = ({ destinations, getDestinations, _id }) => {
     <section className="home-style" >
     <div className="container">
   <h2 className="title">
-    <span class="title-word title-word-1">Explore!</span>
+    <span class="title-word title-word-1">enjoy the trip!</span>
   </h2>
 </div>
     <section className="carousel-style">
     <section className="home">
       <div className="title-space">
-      <Link to={`/destination/6210d8015523020017eb9da8`}>
+      <Link to={`/cities`}>
         <Carousel destinations={destinations} />
       </Link>
       </div>

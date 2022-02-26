@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "../components/Comments.css";
 import TravelGlobe from "../TravelGlobe.png";
+import { Link } from "react-router-dom";
 
 //Formulário
 
@@ -79,35 +80,17 @@ export const CommentsPage = ({commentsList, getComments}) => {
       <img src={TravelGlobe} className="globe-img" alt="globe-img" />
     </section>
     <section>
-      <p className="comments-title">Community comments</p>
+    <Link to={`/answers`}>
+      <p className="comments-title">See Community Comments</p>
+    </Link>
       <>
       <div>
       {commentsList.length > 0 ? (
         <>
         <div className="comments-container">
-    <div className="comments">
-    <p>Name: {commentsList[0].name};</p>
-    <p>Country: {commentsList[0].country};</p>
-    <p>City: {commentsList[0].city};</p>
-    <p>Score: {commentsList[0].score};</p>
-    <p>Comment: {commentsList[0].comment};</p>
-    </div>
-    <br></br>
-    <div className="comments">
-    <p>Name: {commentsList[1].name};</p>
-    <p>Country: {commentsList[1].country};</p>
-    <p>City: {commentsList[1].city};</p>
-    <p>Score: {commentsList[1].score};</p>
-    <p>Comment: {commentsList[1].comment};</p>
-    </div>
-    <br></br>
-    <div className="comments">
-    <p>Name: {commentsList[2].name};</p>
-    <p>Country: {commentsList[2].country};</p>
-    <p>City: {commentsList[2].city};</p>
-    <p>Score: {commentsList[2].score};</p>
-    <p>Comment: {commentsList[2].comment};</p>
-    </div>
+    
+    
+    
     </div>
     </>
     ) : (

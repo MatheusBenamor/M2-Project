@@ -1,15 +1,15 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Ranking from './pages/Ranking';
 import About from './pages/About';
 import Home from './pages/Home';
 import DestinationDetails from './components/DestinationDetails';
 import AllCities from './pages/AllCities';
 import { CommentsPage } from './pages/Comments';
+import { Answers } from './pages/Answers';
 import axios from 'axios';
-
 
 
 function App() {
@@ -30,6 +30,17 @@ function App() {
     setCommentsList(data);
   };
 
+  const [answers, setAnswers] = useState([]);
+
+  const getAnswers = async () => {
+  const { data } = await axios.get(
+    "https://ironrest.herokuapp.com/newComments")
+  setAnswers(data);
+}
+
+useEffect(() =>{
+  getAnswers()
+},[])
 
   return (
     <div className="App">
@@ -40,6 +51,7 @@ function App() {
       <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/comments" element={<CommentsPage commentsList={commentsList} getComments={getComments}/>}/>
       <Route path="/destination/:id" element={<DestinationDetails />}/>
+      <Route path="/answers" element={<Answers answers={ answers }/>}/>
       <Route path="/about" element={<About />}/>
       </Routes>
     </div>
