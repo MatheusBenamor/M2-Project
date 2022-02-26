@@ -59,5 +59,6 @@
   }
 
   .border-img {
-    width: 1200px;
+    position: absolute;
+    width: 100%;
   }

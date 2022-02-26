@@ -9,3 +9,12 @@
     border-style: groove;
     color: 	#696969;
 }
+
+.stamp-img {
+    display: flex;
+    flex-direction: flex-end;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-left: 350px;;
+}
