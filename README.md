@@ -1,6 +1,6 @@
 # Travel and Share (Module 2 Project)
 
-![Project Logo](https://imgur.com/a/fChTqD3)
+![Project Logo](https://imgur.com/EPd7AXS)
 
 Deploy link: https://travel-and-share-project.herokuapp.com/
 
