@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Ranking from './pages/Ranking';
 import About from './pages/About';
-//import Home from './pages/Home';
+import Home from './pages/Home';
 import DestinationDetails from './components/DestinationDetails';
 import AllCities from './pages/AllCities';
 import { CommentsPage } from './pages/Comments';
@@ -46,7 +46,7 @@ useEffect(() =>{
     <div className="App">
       <Navbar />
       <Routes>
-      <Route path="/" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
+      <Route path="/" element={<Home destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/comments" element={<CommentsPage commentsList={commentsList} getComments={getComments}/>}/>

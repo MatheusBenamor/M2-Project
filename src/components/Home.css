@@ -62,3 +62,11 @@
     position: absolute;
     width: 100%;
   }
+
+  .home-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+    height: 600px;
+    width: 1200px;
+  }
