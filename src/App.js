@@ -47,6 +47,7 @@ useEffect(() =>{
       <Navbar />
       <Routes>
       <Route path="/" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
+      <Route path="/cities" element={<AllCities destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/ranking" element={<Ranking destinations={destinations} getDestinations={getDestinations}/>}/>
       <Route path="/comments" element={<CommentsPage commentsList={commentsList} getComments={getComments}/>}/>
       <Route path="/destination/:id" element={<DestinationDetails />}/>
