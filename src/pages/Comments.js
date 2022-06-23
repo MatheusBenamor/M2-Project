@@ -36,7 +36,7 @@ export const CommentsPage = ({commentsList, getComments}) => {
     <section className="comment-box">
       
       <form className="w3-container w3-card-4 w3-light-grey" onSubmit={addComment}>
-      <p>Share your experiences with the community!</p>
+      <p>Share your experiences with the community</p>
         <input className="w3-input w3-border w3-round-large"
           type="text"
           placeholder="Your Name"
